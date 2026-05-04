@@ -1,0 +1,530 @@
+{
+  "CAT 3406C DIT (250 HP @ 1800 RPM)": {
+    "rating_level": "A",
+    "cylinders": 6,
+    "cycles": 4,
+    "nominal_hp": 250,
+    "nominal_rpm": 1800,
+    "performance_curve": {
+      "rpm": [1200, 1300, 1400, 1500, 1600, 1700, 1800],
+      "power_hp": [189, 201, 212, 222, 232, 242, 250]
+    }
+  },
+  "CAT 3406C DIT (300 HP @ 1800 RPM)": {
+    "rating_level": "B",
+    "cylinders": 6,
+    "cycles": 4,
+    "nominal_hp": 300,
+    "nominal_rpm": 1800,
+    "performance_curve": {
+      "rpm": [1200, 1300, 1400, 1500, 1600, 1700, 1800],
+      "power_hp": [225, 240, 253, 266, 278, 290, 300]
+    }
+  },
+  "CAT 3406C DIT (348 HP @ 2100 RPM)": {
+    "rating_level": "C",
+    "cylinders": 6,
+    "cycles": 4,
+    "nominal_hp": 348,
+    "nominal_rpm": 2100,
+    "performance_curve": {
+      "rpm": [1200, 1400, 1600, 1700, 1800, 1900, 2000, 2100],
+      "power_hp": [243, 276, 305, 318, 330, 339, 345, 348]
+    }
+  },
+  "CAT 3406C DIT (402 HP @ 2100 RPM)": {
+    "rating_level": "E",
+    "cylinders": 6,
+    "cycles": 4,
+    "nominal_hp": 402,
+    "nominal_rpm": 2100,
+    "performance_curve": {
+      "rpm": [1200, 1400, 1600, 1800, 1900, 2000, 2100],
+      "power_hp": [278, 319, 360, 387, 396, 401, 402]
+    }
+  },
+  "CAT 3406C DITA (275 HP @ 1200 RPM)": {
+    "rating_level": "A",
+    "cylinders": 6,
+    "cycles": 4,
+    "nominal_hp": 275,
+    "nominal_rpm": 1200,
+    "performance_curve": {
+      "rpm": [800, 900, 1000, 1050, 1100, 1150, 1200],
+      "power_hp": [176, 207, 238, 248, 258, 267, 275]
+    }
+  },
+  "CAT 3406C DITA (322 HP @ 1800 RPM)": {
+    "rating_level": "A",
+    "cylinders": 6,
+    "cycles": 4,
+    "nominal_hp": 322,
+    "nominal_rpm": 1800,
+    "performance_curve": {
+      "rpm": [1000, 1100, 1200, 1300, 1400, 1600, 1800],
+      "power_hp": [147, 211, 228, 247, 264, 296, 322]
+    }
+  },
+  "CAT 3406C DITA (365 HP @ 1800 RPM)": {
+    "rating_level": "A",
+    "cylinders": 6,
+    "cycles": 4,
+    "nominal_hp": 365,
+    "nominal_rpm": 1800,
+    "performance_curve": {
+      "rpm": [1000, 1100, 1200, 1300, 1400, 1600, 1800],
+      "power_hp": [147, 211, 243, 277, 296, 332, 365]
+    }
+  },
+  "CAT 3406C DITA (310 HP @ 1350 RPM)": {
+    "rating_level": "B",
+    "cylinders": 6,
+    "cycles": 4,
+    "nominal_hp": 310,
+    "nominal_rpm": 1350,
+    "performance_curve": {
+      "rpm": [800, 900, 1000, 1100, 1200, 1300, 1350],
+      "power_hp": [176, 210, 240, 269, 287, 303, 310]
+    }
+  },
+  "CAT 3406C DITA (380 HP @ 1800 RPM)": {
+    "rating_level": "B",
+    "cylinders": 6,
+    "cycles": 4,
+    "nominal_hp": 380,
+    "nominal_rpm": 1800,
+    "performance_curve": {
+      "rpm": [1000, 1100, 1200, 1300, 1400, 1600, 1800],
+      "power_hp": [147, 211, 243, 284, 307, 344, 380]
+    }
+  },
+  "CAT 3406C DITA (400 HP @ 1800 RPM)": {
+    "rating_level": "B",
+    "cylinders": 6,
+    "cycles": 4,
+    "nominal_hp": 400,
+    "nominal_rpm": 1800,
+    "performance_curve": {
+      "rpm": [1000, 1100, 1200, 1300, 1400, 1600, 1800],
+      "power_hp": [147, 233, 272, 301, 321, 361, 400]
+    }
+  },
+  "CAT 3406C DITA (440 HP @ 2100 RPM)": {
+    "rating_level": "B",
+    "cylinders": 6,
+    "cycles": 4,
+    "nominal_hp": 440,
+    "nominal_rpm": 2100,
+    "performance_curve": {
+      "rpm": [1000, 1100, 1200, 1400, 1600, 1800, 2000, 2100],
+      "power_hp": [161, 213, 244, 328, 377, 417, 436, 440]
+    }
+  },
+  "CAT 3406C DITA (480 HP @ 2100 RPM)": {
+    "rating_level": "C",
+    "cylinders": 6,
+    "cycles": 4,
+    "nominal_hp": 480,
+    "nominal_rpm": 2100,
+    "performance_curve": {
+      "rpm": [1100, 1200, 1400, 1600, 1800, 2000, 2100],
+      "power_hp": [212, 243, 329, 416, 456, 479, 480]
+    }
+  },
+  "CAT 3406C DITA (535 HP @ 2100 RPM)": {
+    "rating_level": "D",
+    "cylinders": 6,
+    "cycles": 4,
+    "nominal_hp": 535,
+    "nominal_rpm": 2100,
+    "performance_curve": {
+      "rpm": [1100, 1200, 1400, 1600, 1800, 2000, 2100],
+      "power_hp": [213, 244, 335, 461, 507, 532, 535]
+    }
+  },
+  "CAT 3406C DITA (580 HP @ 2100 RPM)": {
+    "rating_level": "E",
+    "cylinders": 6,
+    "cycles": 4,
+    "nominal_hp": 580,
+    "nominal_rpm": 2100,
+    "performance_curve": {
+      "rpm": [1100, 1200, 1400, 1600, 1800, 2000, 2100],
+      "power_hp": [212, 254, 360, 491, 539, 572, 580]
+    }
+  },
+  "CAT 3408C DITA (350 HP @ 1250 RPM)": {
+    "rating_level": "A",
+    "cylinders": 8,
+    "cycles": 4,
+    "nominal_hp": 350,
+    "nominal_rpm": 1250,
+    "performance_curve": {
+      "rpm": [800, 900, 1000, 1100, 1200, 1250],
+      "power_hp": [161, 228, 278, 311, 337, 350]
+    }
+  },
+  "CAT 3408C DITA (375 HP @ 1300 RPM)": {
+    "rating_level": "A",
+    "cylinders": 8,
+    "cycles": 4,
+    "nominal_hp": 375,
+    "nominal_rpm": 1300,
+    "performance_curve": {
+      "rpm": [800, 900, 1000, 1100, 1200, 1300],
+      "power_hp": [161, 230, 283, 319, 354, 375]
+    }
+  },
+  "CAT 3408C DITA (402 HP @ 1800 RPM)": {
+    "rating_level": "A",
+    "cylinders": 8,
+    "cycles": 4,
+    "nominal_hp": 402,
+    "nominal_rpm": 1800,
+    "performance_curve": {
+      "rpm": [1200, 1300, 1400, 1500, 1600, 1700, 1800],
+      "power_hp": [282, 308, 332, 354, 373, 389, 402]
+    }
+  },
+  "CAT 3408C DITA (455 HP @ 1800 RPM)": {
+    "rating_level": "A",
+    "cylinders": 8,
+    "cycles": 4,
+    "nominal_hp": 455,
+    "nominal_rpm": 1800,
+    "performance_curve": {
+      "rpm": [1000, 1100, 1200, 1400, 1600, 1700, 1800],
+      "power_hp": [226, 290, 329, 379, 422, 440, 455]
+    }
+  },
+  "CAT 3408C DITA (394 HP @ 1350 RPM)": {
+    "rating_level": "B",
+    "cylinders": 8,
+    "cycles": 4,
+    "nominal_hp": 394,
+    "nominal_rpm": 1350,
+    "performance_curve": {
+      "rpm": [800, 900, 1000, 1100, 1200, 1300, 1350],
+      "power_hp": [161, 234, 289, 328, 364, 385, 394]
+    }
+  },
+  "CAT 3408C DITA (470 HP @ 1800 RPM)": {
+    "rating_level": "B",
+    "cylinders": 8,
+    "cycles": 4,
+    "nominal_hp": 470,
+    "nominal_rpm": 1800,
+    "performance_curve": {
+      "rpm": [1200, 1300, 1400, 1500, 1600, 1700, 1800],
+      "power_hp": [335, 369, 397, 424, 443, 459, 470]
+    }
+  },
+  "CAT 3408C DITA (480 HP @ 1800 RPM)": {
+    "rating_level": "B",
+    "cylinders": 8,
+    "cycles": 4,
+    "nominal_hp": 480,
+    "nominal_rpm": 1800,
+    "performance_curve": {
+      "rpm": [1000, 1100, 1200, 1300, 1400, 1600, 1800],
+      "power_hp": [226, 299, 347, 373, 399, 443, 480]
+    }
+  },
+  "CAT 3408C DITA (515 HP @ 2100 RPM)": {
+    "rating_level": "B",
+    "cylinders": 8,
+    "cycles": 4,
+    "nominal_hp": 515,
+    "nominal_rpm": 2100,
+    "performance_curve": {
+      "rpm": [1000, 1100, 1200, 1400, 1600, 1800, 2000, 2100],
+      "power_hp": [226, 297, 343, 404, 450, 485, 506, 515]
+    }
+  },
+  "CAT 3408C DITA (540 HP @ 2100 RPM)": {
+    "rating_level": "C",
+    "cylinders": 8,
+    "cycles": 4,
+    "nominal_hp": 540,
+    "nominal_rpm": 2100,
+    "performance_curve": {
+      "rpm": [1000, 1100, 1200, 1400, 1600, 1800, 2000, 2100],
+      "power_hp": [226, 299, 359, 427, 474, 509, 531, 540]
+    }
+  },
+  "CAT 3408C DITA (570 HP @ 2100 RPM)": {
+    "rating_level": "D",
+    "cylinders": 8,
+    "cycles": 4,
+    "nominal_hp": 570,
+    "nominal_rpm": 2100,
+    "performance_curve": {
+      "rpm": [1000, 1100, 1200, 1400, 1600, 1800, 2000, 2100],
+      "power_hp": [226, 299, 380, 467, 514, 548, 566, 570]
+    }
+  },
+  "CAT 3408C DITA (585 HP @ 2100 RPM)": {
+    "rating_level": "E",
+    "cylinders": 8,
+    "cycles": 4,
+    "nominal_hp": 585,
+    "nominal_rpm": 2100,
+    "performance_curve": {
+      "rpm": [1200, 1400, 1600, 1700, 1800, 1900, 2000, 2100],
+      "power_hp": [362, 474, 527, 545, 562, 576, 585, 585]
+    }
+  },
+  "CAT 3408C DITTA (600 HP @ 2300 RPM)": {
+    "rating_level": "C",
+    "cylinders": 8,
+    "cycles": 4,
+    "nominal_hp": 600,
+    "nominal_rpm": 2300,
+    "performance_curve": {
+      "rpm": [1100, 1200, 1400, 1600, 1800, 2000, 2200, 2300],
+      "power_hp": [268, 296, 402, 475, 516, 557, 592, 600]
+    }
+  },
+  "CAT 3408C DITTA (700 HP @ 2300 RPM)": {
+    "rating_level": "D",
+    "cylinders": 8,
+    "cycles": 4,
+    "nominal_hp": 700,
+    "nominal_rpm": 2300,
+    "performance_curve": {
+      "rpm": [1000, 1200, 1400, 1600, 1800, 2000, 2200, 2300],
+      "power_hp": [242, 296, 402, 535, 608, 656, 697, 700]
+    }
+  },
+  "CAT 3408C DITTA (800 HP @ 2300 RPM)": {
+    "rating_level": "E",
+    "cylinders": 8,
+    "cycles": 4,
+    "nominal_hp": 800,
+    "nominal_rpm": 2300,
+    "performance_curve": {
+      "rpm": [1000, 1200, 1400, 1600, 1800, 2000, 2200, 2300],
+      "power_hp": [323, 389, 476, 577, 687, 738, 780, 800]
+    }
+  },
+  "CAT 3412C DIT (503 HP @ 1800 RPM)": {
+    "rating_level": "A",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 503,
+    "nominal_rpm": 1800,
+    "performance_curve": {
+      "rpm": [1300, 1400, 1500, 1600, 1700, 1800],
+      "power_hp": [467, 502, 508, 510, 509, 503]
+    }
+  },
+  "CAT 3412C DIT (600 HP @ 1800 RPM)": {
+    "rating_level": "A",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 600,
+    "nominal_rpm": 1800,
+    "performance_curve": {
+      "rpm": [1300, 1400, 1500, 1600, 1700, 1800],
+      "power_hp": [467, 593, 602, 606, 605, 600]
+    }
+  },
+  "CAT 3412C DIT (540 HP @ 1800 RPM)": {
+    "rating_level": "B",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 540,
+    "nominal_rpm": 1800,
+    "performance_curve": {
+      "rpm": [1300, 1400, 1500, 1600, 1700, 1800],
+      "power_hp": [467, 541, 547, 549, 547, 540]
+    }
+  },
+  "CAT 3412C DIT (615 HP @ 1800 RPM)": {
+    "rating_level": "B",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 615,
+    "nominal_rpm": 1800,
+    "performance_curve": {
+      "rpm": [1300, 1400, 1500, 1600, 1700, 1800],
+      "power_hp": [466, 595, 607, 613, 616, 615]
+    }
+  },
+  "CAT 3412C DIT (635 HP @ 1800 RPM)": {
+    "rating_level": "C",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 635,
+    "nominal_rpm": 1800,
+    "performance_curve": {
+      "rpm": [1300, 1400, 1500, 1600, 1700, 1800],
+      "power_hp": [466, 597, 614, 623, 630, 635]
+    }
+  },
+  "CAT 3412C DITA (425 HP @ 1200 RPM)": {
+    "rating_level": "A",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 425,
+    "nominal_rpm": 1200,
+    "performance_curve": {
+      "rpm": [900, 950, 1000, 1050, 1100, 1150, 1200],
+      "power_hp": [335, 351, 368, 383, 399, 413, 425]
+    }
+  },
+  "CAT 3412C DITA (624 HP @ 1800 RPM)": {
+    "rating_level": "A",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 624,
+    "nominal_rpm": 1800,
+    "performance_curve": {
+      "rpm": [1000, 1200, 1400, 1600, 1700, 1800],
+      "power_hp": [365, 464, 523, 576, 600, 624]
+    }
+  },
+  "CAT 3412C DITA (650 HP @ 1800 RPM)": {
+    "rating_level": "A",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 650,
+    "nominal_rpm": 1800,
+    "performance_curve": {
+      "rpm": [1000, 1100, 1200, 1300, 1400, 1600, 1800],
+      "power_hp": [359, 420, 474, 520, 568, 619, 650]
+    }
+  },
+  "CAT 3412C DITA (475 HP @ 1200 RPM)": {
+    "rating_level": "B",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 475,
+    "nominal_rpm": 1200,
+    "performance_curve": {
+      "rpm": [900, 950, 1000, 1050, 1100, 1150, 1200],
+      "power_hp": [373, 391, 409, 426, 442, 459, 475]
+    }
+  },
+  "CAT 3412C DITA (671 HP @ 1800 RPM)": {
+    "rating_level": "B",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 671,
+    "nominal_rpm": 1800,
+    "performance_curve": {
+      "rpm": [1000, 1200, 1400, 1600, 1700, 1800],
+      "power_hp": [391, 499, 562, 619, 646, 671]
+    }
+  },
+  "CAT 3412C DITA (720 HP @ 1800 RPM)": {
+    "rating_level": "B",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 720,
+    "nominal_rpm": 1800,
+    "performance_curve": {
+      "rpm": [1000, 1100, 1200, 1300, 1400, 1600, 1800],
+      "power_hp": [359, 455, 528, 582, 636, 695, 720]
+    }
+  },
+  "CAT 3412C DITA (764 HP @ 2100 RPM)": {
+    "rating_level": "C",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 764,
+    "nominal_rpm": 2100,
+    "performance_curve": {
+      "rpm": [1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100],
+      "power_hp": [601, 639, 665, 689, 713, 735, 752, 764]
+    }
+  },
+  "CAT 3412C DITA (830 HP @ 2100 RPM)": {
+    "rating_level": "D",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 830,
+    "nominal_rpm": 2100,
+    "performance_curve": {
+      "rpm": [1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100],
+      "power_hp": [654, 687, 720, 749, 775, 798, 818, 830]
+    }
+  },
+  "CAT 3412C DITA (860 HP @ 2100 RPM)": {
+    "rating_level": "E",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 860,
+    "nominal_rpm": 2100,
+    "performance_curve": {
+      "rpm": [1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100],
+      "power_hp": [677, 712, 750, 780, 805, 827, 846, 860]
+    }
+  },
+  "CAT 3412C DITTA (825 HP @ 2100 RPM)": {
+    "rating_level": "C",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 825,
+    "nominal_rpm": 2100,
+    "performance_curve": {
+      "rpm": [1000, 1200, 1400, 1600, 1800, 2000, 2100],
+      "power_hp": [321, 406, 542, 668, 752, 809, 825]
+    }
+  },
+  "CAT 3412C DITTA (850 HP @ 2300 RPM)": {
+    "rating_level": "C",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 850,
+    "nominal_rpm": 2300,
+    "performance_curve": {
+      "rpm": [1000, 1200, 1400, 1600, 1800, 2000, 2200, 2300],
+      "power_hp": [321, 406, 542, 662, 744, 800, 835, 850]
+    }
+  },
+  "CAT 3412C DITTA (900 HP @ 2100 RPM)": {
+    "rating_level": "D",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 900,
+    "nominal_rpm": 2100,
+    "performance_curve": {
+      "rpm": [1000, 1200, 1400, 1600, 1800, 2000, 2100],
+      "power_hp": [321, 406, 542, 737, 827, 883, 900]
+    }
+  },
+  "CAT 3412C DITTA (1050 HP @ 2300 RPM)": {
+    "rating_level": "D",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 1050,
+    "nominal_rpm": 2300,
+    "performance_curve": {
+      "rpm": [1000, 1200, 1400, 1600, 1800, 2000, 2100, 2200, 2300],
+      "power_hp": [321, 406, 542, 834, 907, 990, 1038, 1050, 1050]
+    }
+  },
+  "CAT 3412C DITTA (1000 HP @ 2100 RPM)": {
+    "rating_level": "E",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 1000,
+    "nominal_rpm": 2100,
+    "performance_curve": {
+      "rpm": [1000, 1200, 1400, 1600, 1800, 2000, 2100],
+      "power_hp": [321, 406, 542, 834, 907, 991, 1000]
+    }
+  },
+  "CAT 3412C DITTA (1300 HP @ 2300 RPM)": {
+    "rating_level": "E",
+    "cylinders": 12,
+    "cycles": 4,
+    "nominal_hp": 1300,
+    "nominal_rpm": 2300,
+    "performance_curve": {
+      "rpm": [1000, 1200, 1400, 1600, 1800, 2000, 2200, 2300],
+      "power_hp": [369, 476, 681, 858, 1006, 1077, 1207, 1300]
+    }
+  }
+}
