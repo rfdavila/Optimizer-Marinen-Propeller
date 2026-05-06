@@ -125,7 +125,7 @@ class PropellerOptimizer:
         Función objetivo para minimize_scalar.
         Retorna -η (negativo porque scipy minimiza, nosotros maximizamos η).
         """
-        prop = SerieB(pfac, afac, z, self.re)  # Serie B para la búsqueda
+        prop = self._crear_helice(pfac, z, afac)  # Serie B/Kaplan para la búsqueda
         j_eq = self._find_equilibrium_J(prop, task, design_constant)
         if j_eq is None:
             return 1.0   # penalización: eficiencia cero si no hay solución
@@ -381,9 +381,11 @@ class PropellerOptimizer:
                 # Convertir Vs → Va
                 vel  = self.convertir_velocidades(vs_nudos, wake_factor)
                 va   = vel['va_ms']
+                # Aplicar margen de servicio a la potencia requerida
+                pd_w_diseno = pd_w * margen_servicio  # aplicar antes de calcular C
                 # Constante de diseño para Tarea 1 (basada en torque):
                 # C = KQ / J^5 = Pd·η_R·n² / (2π·ρ·Va^5)
-                C = (pd_w * n**2 * eta_r) / (2.0 * pi * self.rho * va**5)
+                C = (pd_w_diseno* n**2 * eta_r) / (2.0 * pi * self.rho * va**5)
 
             elif task == 2:
                 t_n_input, rpm_helice_input, vs_nudos = inputs
@@ -407,9 +409,11 @@ class PropellerOptimizer:
                 pd_w, d, vs_nudos, eta_r = inputs
                 vel = self.convertir_velocidades(vs_nudos, wake_factor)
                 va  = vel['va_ms']
+                #Aplicar margen de servicio a la potencia requerida
+                pd_w_diseno = pd_w * margen_servicio  # aplicar antes de calcular C
                 # Constante de diseño para Tarea 3:
                 # C = KQ / J^3 = Pd·η_R / (2π·ρ·D²·Va^3)
-                C = (pd_w * eta_r) / (2.0 * pi * self.rho * d**2 * va**3)
+                C = (pd_w_diseno * eta_r) / (2.0 * pi * self.rho * d**2 * va**3)
 
             elif task == 4:
                 t_n_input, d, vs_nudos = inputs
