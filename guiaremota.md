@@ -231,3 +231,33 @@ Una vez obtenido el resultado de optimización, en la pestaña **Cavitación** s
 ## Referencia
 
 Birk, L. (2019). *Fundamentals of Ship Hydrodynamics: Fluid Mechanics, Ship Resistance and Propulsion*. Wiley.
+
+
+"""
+# 1. Crear entorno virtual
+python -m venv venv
+
+# 2. Activar (verás (venv) al inicio del prompt)
+.\venv\Scripts\Activate.ps1
+
+# 3. Instalar dependencias
+pip install -r requirements.txt
+
+# 4. Ahora sí, correr la app
+streamlit run app.py
+
+Entrar al entorno virtual (activar):
+
+Verás (venv) al inicio del prompt.
+
+Salir del entorno virtual (desactivar):
+
+El (venv) desaparece del prompt y vuelves al Python global.
+
+Notas:
+
+Siempre activa antes de trabajar en tu proyecto
+Desactiva cuando termines (o simplemente cierra la terminal)
+Si cierras PowerShell, se desactiva automáticamente
+Para ejecutar la app, debe estar activado el entorno
+"""

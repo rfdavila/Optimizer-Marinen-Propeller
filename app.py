@@ -369,7 +369,7 @@ with st.sidebar:
         else:
             rho = st.number_input("Densidad ρ [kg/m³]", 900.0, 1100.0, 1026.021, 0.1)
         re_m6 = st.number_input(
-            "Reynolds Re [×10⁶]", 0.1, 10.0, 1.0, 0.1,
+            "Reynolds Re [×10⁶]", 0.1, 1000.0, 1.0, 0.1,
             help="Número de Reynolds en radio 0.75R (afecta corrección de Serie B)"
         )
         re = re_m6 * 1e6
@@ -378,7 +378,7 @@ with st.sidebar:
     with st.expander("📐 Geometría de Hélice", expanded=True):
         if prop_config["tipo"] == "SERIE_B":
             z = st.slider("Número de palas Z", 2, 7, 4)
-            ae_ao = st.slider("Relación de área EAR (Ae/Ao)", 0.40, 1.05, 0.85, 0.05)
+            ae_ao = st.slider("Relación de área EAR (Ae/Ao)", 0.30, 1.05, 0.693, 0.001, format="%.3f")
         else:
             z = prop_config["z"]
             ae_ao = prop_config["ear"]
@@ -396,11 +396,11 @@ with st.sidebar:
     # ── Factores de corrección ────────────────────────────────────────────────
     with st.expander("🔄 Factores de Corrección", expanded=False):
         wake_factor = st.slider(
-            "Factor de estela w", 0.0, 0.30, 0.0, 0.01,
+            "Factor de estela w", 0.0, 0.30, 0.2865, 0.0001, format="%.4f",
             help="Va = (1 - w)·Vs.  Típico: 0.10–0.25 para barcos mercantes"
         )
         thrust_deduction = st.slider(
-            "Deducción de empuje t", 0.0, 0.20, 0.0, 0.01,
+            "Deducción de empuje t", 0.0, 0.20, 0.190, 0.0001, format="%.4f",
             help="T_neto = T_bruto · (1 - t).  Típico: 0.05–0.15"
         )
         margen_servicio = st.slider(
@@ -419,7 +419,7 @@ with st.sidebar:
             help="Pérdidas mecánicas en línea de ejes y chumaceras"
         )
         eta_r = st.number_input(
-            "Eficiencia rotativa ηR", 0.90, 1.10, 1.03, 0.01,
+            "Eficiencia rotativa ηR", 0.90, 1.30, 1.009, 1.001, format="%.3f",
             help="Corrección por flujo no uniforme. Típico: 0.95–1.05"
         )
 

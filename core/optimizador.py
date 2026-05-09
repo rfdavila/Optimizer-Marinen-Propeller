@@ -102,7 +102,7 @@ class PropellerOptimizer:
 
         Retorna
         -------
-        float : J óptimo de autopropulsión, o None si no converge.
+        float : J óptimo de autopropulsión, o None si no converge de la ecuacion de equilibrio
         """
         def objetivo(j_guess):
             kt, kq, _ = prop.evaluate(j_guess)
@@ -226,6 +226,9 @@ class PropellerOptimizer:
         dict con 'j_adj', 'd_adj', 'n_adj_rps'.
         """
         j_adj = delta_d * j_optimo   # J ajustado
+        #calcular el paso diametro ajustaso
+        #va usar como funcion objetivo la eficiencia y J ajutado  es valor fijo
+        #se maximizar esa funcion objetivo con deferentes pasos
 
         if tarea in (1, 2):
             # RPM fijas → ajustamos el diámetro
